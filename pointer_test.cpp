@@ -1,5 +1,4 @@
 #include <iostream>
-#include "pointer_test.h"
  
 using namespace std;
 
@@ -40,7 +39,6 @@ int main(void) {
    ptrBox = &Box1;
    singleCopyPoint(ptrBox);
 //    copyPointer(testBox, ptrBox);
-
 
    // Now try to access a member using member access operator
    cout << "Volume of Box1: " << ptrBox->Volume() << endl;
