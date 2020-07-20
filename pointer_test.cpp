@@ -1,5 +1,4 @@
 #include <iostream>
-#include "pointer_test.h"
  
 using namespace std;
 
