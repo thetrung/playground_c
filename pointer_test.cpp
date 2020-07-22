@@ -21,9 +21,10 @@ class Box {
       double height;     // Height of a box
 };
 
-static void copyPointer(Box * src, Box *& dest){
+static void copyPointer(Box * src, Box * dest){
     dest = src;
 }
+
 static void singleCopyPoint(Box * src){
     Box *testBox;
     testBox = *&src;
