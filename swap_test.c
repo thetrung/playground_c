@@ -37,7 +37,7 @@ int main(void)
     printf("---------------------------------------\n");
 
    
-    // That's all about storing multiple enum in a single value.
+    // That's how we swap things with pointer in C.
     // @thetrung 2020
     //
 }
